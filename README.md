@@ -60,8 +60,9 @@ CIRCUIT DIAGRAM
  
 ![312716804-230e1c06-ebeb-4c42-9395-f076b7cdcc7c](https://github.com/KesavDeepak/EXPERIMENT-NO--05-INTERFACING-ANALOG-OUTPUT-SERVO-MOTOR-WITH-ARDUINO-/assets/139336019/4fb0fe5e-7659-486c-a8a7-a567a7c4e7ca)
 
-### FIGURE 04 CIRCUIT DIAGRAM
+### FIGURE 04 SCHEMATIC DIAGRAM
 
+![312717438-0786d0e1-b12e-4f7e-8931-02d15afb338b](https://github.com/KesavDeepak/EXPERIMENT-NO--05-INTERFACING-ANALOG-OUTPUT-SERVO-MOTOR-WITH-ARDUINO-/assets/139336019/5a5fb6c6-81c8-4242-9cef-aa52b2002441)
 
 ### PROCEDURE:
 1.	Connect the circuit as per the circuit diagram 
@@ -76,7 +77,38 @@ CIRCUIT DIAGRAM
 
 
 ### PROGRAM :
- 
+ ``` c++
+#include <Servo.h>
+
+Servo superservo;
+int pos = 0;
+
+void setup()
+{
+  superservo.attach(9);
+  Serial.begin(9600);
+  Serial.print("Type the angle");
+}
+
+void loop()
+{
+  for(pos = 0; pos <= 180; pos += 1)
+  {
+    superservo.write(pos);
+    delay(20);
+    // Serial.print("Angle = ");
+    Serial.println(pos);
+  }
+  
+  for(pos = 180; pos >= 0; pos -= 1)
+  {
+    superservo.write(pos);
+    delay(20);
+    // Serial.print("Angle = ");
+    Serial.println(pos);
+  }
+}
+```
 
 
 
