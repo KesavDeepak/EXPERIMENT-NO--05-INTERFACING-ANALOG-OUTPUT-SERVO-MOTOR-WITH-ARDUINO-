@@ -1,4 +1,4 @@
-###  DATE: 14-03-2024
+![312716804-230e1c06-ebeb-4c42-9395-f076b7cdcc7c](https://github.com/KesavDeepak/EXPERIMENT-NO--05-INTERFACING-ANALOG-OUTPUT-SERVO-MOTOR-WITH-ARDUINO-/assets/139336019/664b7055-0ec9-42b6-9f87-4bc10b5838a9)###  DATE: 14-03-2024
 
 ###  NAME: KESAV DEEPAK SRIDHARAN
 ###  ROLL NO : 212223230104
@@ -48,6 +48,7 @@ An external controller (such as the Arduino) tells the servo where to go with a 
  
 
 
+
  
 
 
@@ -57,9 +58,10 @@ An external controller (such as the Arduino) tells the servo where to go with a 
 CIRCUIT DIAGRAM
  
  
- ![image](https://user-images.githubusercontent.com/36288975/163544618-6eb8a7b5-7f1a-428a-8d9f-fd899b145efb.png)
+![312716804-230e1c06-ebeb-4c42-9395-f076b7cdcc7c](https://github.com/KesavDeepak/EXPERIMENT-NO--05-INTERFACING-ANALOG-OUTPUT-SERVO-MOTOR-WITH-ARDUINO-/assets/139336019/4fb0fe5e-7659-486c-a8a7-a567a7c4e7ca)
 
 ### FIGURE 04 CIRCUIT DIAGRAM
+
 
 ### PROCEDURE:
 1.	Connect the circuit as per the circuit diagram 
